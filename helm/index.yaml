@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  zuid-drecht-static:
+  - apiVersion: v2
+    appVersion: V1.0
+    created: "2021-07-02T16:44:24.8514026+02:00"
+    digest: a294c8f57c854c1ca042debd351605260b1afcb8fa4f43bbcd5b94dd8cd07748
+    home: https://www.conduction.nl
+    icon: https://conductionnl.github.io/images/conduction_avatar_blue_on_transparant.svg
+    keywords:
+    - commonground
+    - Zuid-Drecht
+    maintainers:
+    - email: ruben@conduction.nl
+      name: Ruben van der Linde
+    - email: info@conduction.nl
+      name: Conduction
+    name: zuid-drecht-static
+    sources:
+    - https://commonground.conduction.nl/
+    urls:
+    - zuid-drecht-static-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-07-02T16:44:24.8494024+02:00"
