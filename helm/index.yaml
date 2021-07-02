@@ -3,8 +3,8 @@ entries:
   zuid-drecht-static:
   - apiVersion: v2
     appVersion: V1.0
-    created: "2021-07-02T16:44:24.8514026+02:00"
-    digest: a294c8f57c854c1ca042debd351605260b1afcb8fa4f43bbcd5b94dd8cd07748
+    created: "2021-07-02T17:00:12.8084865+02:00"
+    digest: fbda9f4c0b95d9e7a5844eab05a85601b0105fd62316feb2e3e5243220b5cb81
     home: https://www.conduction.nl
     icon: https://conductionnl.github.io/images/conduction_avatar_blue_on_transparant.svg
     keywords:
@@ -21,4 +21,4 @@ entries:
     urls:
     - zuid-drecht-static-1.0.0.tgz
     version: 1.0.0
-generated: "2021-07-02T16:44:24.8494024+02:00"
+generated: "2021-07-02T17:00:12.8074864+02:00"

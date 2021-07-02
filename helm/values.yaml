@@ -1,6 +1,6 @@
 nginx:
-  repository: docker.io/conduction/protocomponent-nginx
-  image: docker.io/conduction/begrafenisplanner-nginx
+  repository: docker.io/conduction/zuid-drecht-static
+  image: docker.io/conduction/zuid-drecht-static
   tag: latest
   pullPolicy: Always
   replicaCount: 1
