@@ -5,7 +5,6 @@ metadata:
   labels:
     app.kubernetes.io/name: {{ .Release.Name }}-nginx
     app.kubernetes.io/part-of: {{ .Release.Name }}
-    helm.sh/chart: {{ include "chart" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
 spec:
@@ -18,7 +17,6 @@ spec:
       labels:
         app.kubernetes.io/name: {{ .Release.Name }}-nginx
         app.kubernetes.io/part-of: {{ .Release.Name }}
-        helm.sh/chart: {{ include "chart" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
         app.kubernetes.io/managed-by: {{ .Release.Service }}
     spec:
@@ -28,6 +26,3 @@ spec:
           imagePullPolicy: {{ .Values.nginx.pullPolicy }}
           ports:
             - containerPort: 80
-          resources:
-{{ toYaml .Values.resources | indent 12 }}
-  {{- if .Values.nodeSelector }}
